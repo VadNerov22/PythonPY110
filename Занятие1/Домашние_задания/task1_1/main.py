@@ -1,4 +1,3 @@
 if __name__ == "__main__":
-
-    zip(range(len(data)), data)
+    zip(range(len(list_)), list)
     pass
