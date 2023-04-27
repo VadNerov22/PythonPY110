@@ -1,5 +1,10 @@
-def header_footer():  # TODO написать декоратор
-    ...
+def header_footer(func):
+    def wrapper():
+        print("========")
+        func()
+        print("========")
+
+    return wrapper
 
 
 @header_footer
