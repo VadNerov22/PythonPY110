@@ -15,7 +15,7 @@ def return_list() -> list:
 
 @output_type_list
 def return_tuple() -> str:
-    return ""
+    return " "
 
 
 if __name__ == "__main__":
